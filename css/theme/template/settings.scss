@@ -2,39 +2,39 @@
 // overridden by the super-theme
 
 // Background of the presentation
-$backgroundColor: #2b2b2b;
+$backgroundColor: #FFFFFF;
 
 // Primary/body text
-$mainFont: 'Lato', sans-serif;
-$mainFontSize: 40px;
-$mainColor: #eee;
+$mainFont: "GT-Walsheim-Pro", Arial, Helvetica, sans-serif;
+$mainFontSize: 24px;
+$mainColor: inherit;
 
 // Vertical spacing between blocks of text
 $blockMargin: 20px;
 
 // Headings
-$headingMargin: 0 0 $blockMargin 0;
-$headingFont: 'League Gothic', Impact, sans-serif;
-$headingColor: #eee;
-$headingLineHeight: 1.2;
+$headingMargin: inherit;
+$headingFont: "GT-Walsheim-Pro", Arial, Helvetica, sans-serif;
+$headingColor: inherit;
+$headingLineHeight: inherit;
 $headingLetterSpacing: normal;
 $headingTextTransform: uppercase;
 $headingTextShadow: none;
 $headingFontWeight: normal;
 $heading1TextShadow: $headingTextShadow;
 
-$heading1Size: 3.77em;
-$heading2Size: 2.11em;
-$heading3Size: 1.55em;
-$heading4Size: 1.00em;
+$heading1Size: 3.5rem;
+$heading2Size: 2.75rem;
+$heading3Size: 2rem;
+$heading4Size: 1.5rem;
 
 // Links and actions
-$linkColor: #13DAEC;
+$linkColor: #00C9FF;
 $linkColorHover: lighten( $linkColor, 20% );
 
 // Text selection
-$selectionBackgroundColor: #FF5E99;
-$selectionColor: #fff;
+$selectionBackgroundColor: #FFED00;
+$selectionColor: #000000;
 
 // Generates the presentation background, can be overridden
 // to return a background image or gradient

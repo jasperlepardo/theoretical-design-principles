@@ -12,34 +12,27 @@
  * GLOBAL STYLES
  *********************************************/
 body {
-  background: #add9e4;
-  background: -moz-radial-gradient(center, circle cover, #f7fbfc 0%, #add9e4 100%);
-  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #f7fbfc), color-stop(100%, #add9e4));
-  background: -webkit-radial-gradient(center, circle cover, #f7fbfc 0%, #add9e4 100%);
-  background: -o-radial-gradient(center, circle cover, #f7fbfc 0%, #add9e4 100%);
-  background: -ms-radial-gradient(center, circle cover, #f7fbfc 0%, #add9e4 100%);
-  background: radial-gradient(center, circle cover, #f7fbfc 0%, #add9e4 100%);
-  background-color: #f7fbfc; }
+  background: #FFFFFF;
+  background-color: #FFFFFF; }
 
 .reveal {
-  font-family: "Open Sans", sans-serif;
-  font-size: 40px;
+  font-family: "GT-Walsheim-Pro", Arial, Helvetica, sans-serif;
+  font-size: 24px;
   font-weight: normal;
-  color: #333; }
+  color: inherit; }
 
 ::selection {
-  color: #fff;
-  background: #134674;
+  color: #000000;
+  background: #FFED00;
   text-shadow: none; }
 
 ::-moz-selection {
-  color: #fff;
-  background: #134674;
+  color: #000000;
+  background: #FFED00;
   text-shadow: none; }
 
 .reveal .slides section,
 .reveal .slides section > section {
-  line-height: 1.3;
   font-weight: inherit; }
 
 /*********************************************
@@ -51,45 +44,13 @@ body {
 .reveal h4,
 .reveal h5,
 .reveal h6 {
-  margin: 0 0 20px 0;
-  color: #333;
-  font-family: "Quicksand", sans-serif;
-  font-weight: normal;
-  line-height: 1.2;
-  letter-spacing: -0.08em;
-  text-transform: uppercase;
-  text-shadow: none;
+  font-family: "GT-Walsheim-Pro", Arial, Helvetica, sans-serif;
   word-wrap: break-word; }
-
-.reveal h1 {
-  font-size: 3.77em; }
-
-.reveal h2 {
-  font-size: 2.11em; }
-
-.reveal h3 {
-  font-size: 1.55em; }
-
-.reveal h4 {
-  font-size: 1em; }
-
-.reveal h1 {
-  text-shadow: none; }
 
 /*********************************************
  * OTHER
  *********************************************/
-.reveal p {
-  margin: 20px 0;
-  line-height: 1.3; }
-
 /* Ensure certain elements are never larger than the slide itself */
-.reveal img,
-.reveal video,
-.reveal iframe {
-  max-width: 95%;
-  max-height: 95%; }
-
 .reveal strong,
 .reveal b {
   font-weight: bold; }
@@ -216,28 +177,27 @@ body {
  * LINKS
  *********************************************/
 .reveal a {
-  color: #3b759e;
+  color: #00C9FF;
   text-decoration: none;
   -webkit-transition: color .15s ease;
   -moz-transition: color .15s ease;
   transition: color .15s ease; }
 
 .reveal a:hover {
-  color: #74a7cb;
+  color: #66dfff;
   text-shadow: none;
   border: none; }
 
 .reveal .roll span:after {
   color: #fff;
-  background: #264c66; }
+  background: #008db3; }
 
 /*********************************************
  * IMAGES
  *********************************************/
 .reveal section img {
-  margin: 15px 0px;
   background: rgba(255, 255, 255, 0.12);
-  border: 4px solid #333;
+  border: 4px solid inherit;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); }
 
 .reveal section img.plain {
@@ -251,21 +211,21 @@ body {
 
 .reveal a:hover img {
   background: rgba(255, 255, 255, 0.2);
-  border-color: #3b759e;
+  border-color: #00C9FF;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
 
 /*********************************************
  * NAVIGATION CONTROLS
  *********************************************/
 .reveal .controls {
-  color: #3b759e; }
+  color: #00C9FF; }
 
 /*********************************************
  * PROGRESS BAR
  *********************************************/
 .reveal .progress {
   background: rgba(0, 0, 0, 0.2);
-  color: #3b759e; }
+  color: #00C9FF; }
 
 .reveal .progress span {
   -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
@@ -277,4 +237,4 @@ body {
  *********************************************/
 @media print {
   .backgrounds {
-    background-color: #f7fbfc; } }
+    background-color: #FFFFFF; } }
